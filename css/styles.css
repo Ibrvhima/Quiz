@@ -130,20 +130,43 @@ body.dark .section_container {
   display: none;
 }
 
-/* Media Queries */
-
-/* POUR LES TABLETTE*/
+/* POUR LES TABLETTES */
 @media (max-width: 768px) {
+  .section_container {
+    margin-top: 6rem;
+    padding: 2rem;
+  }
+
+  .quiz_title {
+    font-size: 2rem;
+  }
+
+  .question {
+    font-size: 1.6rem;
+  }
 }
 
-/* POUR LES TELEPHONS */
+/* POUR LES TÉLÉPHONES */
 @media (max-width: 480px) {
   .section_container {
-    margin-top: 4em;
-    padding: 2em;
+    margin-top: 4rem;
+    padding: 1.5rem;
+  }
+
+  .quiz_title {
+    font-size: 1.8rem;
+  }
+
+  .question {
+    font-size: 1.4rem;
   }
 
   .icon {
-    font-size: 2em;
+    font-size: 2.5rem;
+  }
+
+  button.reponse {
+    width: 100%;
+    max-width: none;
   }
 }
