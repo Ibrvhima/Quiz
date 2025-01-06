@@ -133,7 +133,7 @@ body.dark .section_container {
 /* POUR LES TABLETTES */
 @media (max-width: 768px) {
   .section_container {
-    margin-top: 6rem;
+    margin-top: 15rem;
     padding: 2rem;
   }
 
