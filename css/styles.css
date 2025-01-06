@@ -133,7 +133,7 @@ body.dark .section_container {
 /* POUR LES TABLETTES */
 @media (max-width: 768px) {
   .section_container {
-    margin-top: 15rem;
+    margin-top: 6rem;
     padding: 2rem;
   }
 
@@ -150,15 +150,15 @@ body.dark .section_container {
 @media (max-width: 480px) {
   .section_container {
     margin-top: 12rem;
-    padding: 1.5rem;
+    padding: 1.8rem;
   }
 
   .quiz_title {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .question {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .icon {
