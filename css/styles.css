@@ -3,11 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   font-size: 62.5%;
 }
-
 body {
   font-family: sans-serif;
   background-color: #f4f3f3;
@@ -16,8 +14,7 @@ body {
 
 .section_container {
   margin: auto;
-  max-width: 90%;
-  width: 300px;
+  max-width: 300px;
   margin-top: 8rem;
   background-color: #fefefe;
   padding: 3rem;
@@ -29,6 +26,7 @@ body {
 .quiz_title {
   display: flex;
   align-items: center;
+  text-align: center;
   justify-content: center;
   gap: 1rem;
   font-size: 2.4rem;
@@ -47,11 +45,10 @@ body {
 }
 
 button.reponse {
-  width: 90%;
-  max-width: 190px;
+  width: 190px;
   display: block;
   margin: 10px auto;
-  padding: 1rem;
+  padding: 8px 0px;
   background-color: rgb(233, 229, 229);
   border: none;
   border-radius: 5px;
@@ -63,7 +60,7 @@ button.reponse {
 }
 
 .reprendre {
-  padding: 0.5rem 3rem;
+  padding: 5px 30px;
   border-radius: 5px;
   border: none;
   background-color: rgb(20, 122, 230);
@@ -78,10 +75,9 @@ button.reponse {
   margin-bottom: 2rem;
   line-height: 1.5em;
 }
-
 .question-image {
   width: 80%;
-  height: auto;
+  height: 100px;
   margin-bottom: 0.75rem;
   border: solid 1px #ccc;
   border-radius: 5px;
@@ -96,7 +92,7 @@ span {
 
 .conteur {
   margin: auto;
-  width: 50%;
+  width: 20%;
   font-size: 1.8rem;
   font-weight: 700;
   background-color: #f7de1e7e;
@@ -104,7 +100,6 @@ span {
   margin-bottom: 10px;
   padding: 4px 0;
 }
-
 .scorefinal {
   border: 1px solid #ccc;
 }
@@ -126,7 +121,6 @@ body.dark .section_container {
   right: 20px;
   cursor: pointer;
 }
-
 .icon {
   font-size: 4rem;
   display: inline-block;
@@ -138,43 +132,18 @@ body.dark .section_container {
 
 /* Media Queries */
 
-/* POUR LES TABLETTES */
+/* POUR LES TABLETTE*/
 @media (max-width: 768px) {
-  .section_container {
-    margin-top: 6rem;
-    padding: 2rem;
-  }
-
-  .quiz_title {
-    font-size: 2rem;
-  }
-
-  .question {
-    font-size: 1.6rem;
-  }
 }
 
-/* POUR LES TÉLÉPHONES */
+/* POUR LES TELEPHONS */
 @media (max-width: 480px) {
   .section_container {
-    margin-top: 4rem;
-    padding: 1.5rem;
-  }
-
-  .quiz_title {
-    font-size: 1.8rem;
-  }
-
-  .question {
-    font-size: 1.4rem;
+    margin-top: 4em;
+    padding: 2em;
   }
 
   .icon {
-    font-size: 2.5rem;
-  }
-
-  button.reponse {
-    width: 100%;
-    max-width: none;
+    font-size: 2em;
   }
 }
